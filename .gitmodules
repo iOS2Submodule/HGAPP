@@ -2,3 +2,7 @@
 	path = HGCategorys
 	url = https://github.com/GitHubZHH/SubModule.git
     branch = develop
+[submodule "HGCommon"]
+	path = HGCommon
+	url = https://github.com/iOS2Submodule/HGCommon.git
+    branch = develop
