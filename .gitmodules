@@ -1,3 +1,4 @@
 [submodule "HGCategorys"]
 	path = HGCategorys
 	url = https://github.com/GitHubZHH/SubModule.git
+    branch = master
