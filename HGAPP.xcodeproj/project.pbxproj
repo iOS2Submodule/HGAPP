@@ -16,6 +16,7 @@
 		51A1760C2116E77D00E01369 /* UITextView+HG.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A176072116E77C00E01369 /* UITextView+HG.m */; };
 		51A1760D2116E77D00E01369 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A1760A2116E77C00E01369 /* NSString+Regex.m */; };
 		51A1760E2116E77D00E01369 /* UITextField+HG.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A1760B2116E77C00E01369 /* UITextField+HG.m */; };
+		51A176122116F8B200E01369 /* HGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A176112116F8B200E01369 /* HGPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		51A176092116E77C00E01369 /* UITextView+HG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+HG.h"; sourceTree = "<group>"; };
 		51A1760A2116E77C00E01369 /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
 		51A1760B2116E77C00E01369 /* UITextField+HG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HG.m"; sourceTree = "<group>"; };
+		51A176102116F8B200E01369 /* HGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGPerson.h; sourceTree = "<group>"; };
+		51A176112116F8B200E01369 /* HGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 		51A175EE2116E71400E01369 /* HGAPP */ = {
 			isa = PBXGroup;
 			children = (
+				51A1760F2116F8B200E01369 /* HGCommon */,
 				51A176052116E77C00E01369 /* HGCategorys */,
 				51A175EF2116E71400E01369 /* AppDelegate.h */,
 				51A175F02116E71400E01369 /* AppDelegate.m */,
@@ -93,6 +97,16 @@
 			);
 			name = HGCategorys;
 			path = HGCategorys/HGCategorys;
+			sourceTree = SOURCE_ROOT;
+		};
+		51A1760F2116F8B200E01369 /* HGCommon */ = {
+			isa = PBXGroup;
+			children = (
+				51A176102116F8B200E01369 /* HGPerson.h */,
+				51A176112116F8B200E01369 /* HGPerson.m */,
+			);
+			name = HGCommon;
+			path = HGCommon/HGCommon;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -168,6 +182,7 @@
 				51A1760E2116E77D00E01369 /* UITextField+HG.m in Sources */,
 				51A1760D2116E77D00E01369 /* NSString+Regex.m in Sources */,
 				51A175F42116E71400E01369 /* ViewController.m in Sources */,
+				51A176122116F8B200E01369 /* HGPerson.m in Sources */,
 				51A175FF2116E71500E01369 /* main.m in Sources */,
 				51A1760C2116E77D00E01369 /* UITextView+HG.m in Sources */,
 				51A175F12116E71400E01369 /* AppDelegate.m in Sources */,
