@@ -5,3 +5,4 @@
 [submodule "HGCommon"]
 	path = HGCommon
 	url = https://github.com/iOS2Submodule/HGCommon.git
+    branch = master
